@@ -1,0 +1,10 @@
+c:\users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.Properties.Resources.resources
+c:\users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.csproj.GenerateResource.Cache
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\bin\Debug\zakat.exe
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\bin\Debug\zakat.pdb
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\bin\Debug\mysql.data.dll
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\bin\Debug\mysql.data.entity.dll
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.csprojResolveAssemblyReference.cache
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.Form1.resources
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.exe
+C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.pdb
