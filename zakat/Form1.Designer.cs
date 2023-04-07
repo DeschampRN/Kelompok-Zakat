@@ -50,6 +50,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textbox_cariid = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -247,27 +248,43 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(548, 503);
+            this.button1.BackColor = System.Drawing.Color.Chartreuse;
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(589, 483);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(106, 43);
             this.button1.TabIndex = 23;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Cari ID";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textbox_cariid
             // 
-            this.textbox_cariid.Location = new System.Drawing.Point(416, 503);
+            this.textbox_cariid.Location = new System.Drawing.Point(436, 493);
             this.textbox_cariid.Name = "textbox_cariid";
-            this.textbox_cariid.Size = new System.Drawing.Size(100, 22);
+            this.textbox_cariid.Size = new System.Drawing.Size(125, 22);
             this.textbox_cariid.TabIndex = 24;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.label8.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(1361, 510);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(126, 19);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "© Desc Comp";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
+            this.BackgroundImage = global::zakat.Properties.Resources.alessa_ciraulo_r_cy77rA0J0_unsplash__1_;
             this.ClientSize = new System.Drawing.Size(1487, 538);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.textbox_cariid);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
@@ -323,6 +340,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textbox_cariid;
+        private System.Windows.Forms.Label label8;
     }
 }
 
