@@ -1,9 +1,9 @@
 # Kelompok Zakat
- Ini adalah aplikasi CRUD Zakat untuk UTS
+ Ini adalah aplikasi CRUD Zakat untuk UTS 
 
 # Anggota Kelompok
-a
-b
-c
-d
+Deschamp Rizqi Noersufi (12110058)
+Humairoh As Syafa (12110012)
+Novita Nur Alifah(12110024)
+Ayunnisa Rahma Dalena (12110005)
 
