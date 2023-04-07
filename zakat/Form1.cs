@@ -24,10 +24,10 @@ namespace zakat
             lihatData();
         }
 
-        MySqlConnection koneksi = new MySqlConnection("server=localhost;database=zakat;uid=root;pwd=;");
+        MySqlConnection koneksi = new MySqlConnection("server=localhost;database=test;uid=root;pwd=;Convert Zero Datetime=true");
 
         public void lihatData()
-        {
+        {   
             MySqlCommand cmd;
             cmd = koneksi.CreateCommand();
             cmd.CommandText = "select * from identitas";
@@ -36,51 +36,6 @@ namespace zakat
             adapter.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0].DefaultView;
         }
-
-       
-
-        private void button1_Click(object sender, EventArgs e)
-        { 
-           try
-                {
-                    koneksi.Open();
-
-                    MySqlCommand cmd;
-                    cmd = koneksi.CreateCommand();
-                    cmd.CommandText = "UPDATE identitas SET NIK=@NIK, NAMA=@NAMA, JUMLAH_JIWA=@JUMLAH_JIWA, KUALITAS=@KUALITAS, TOTAL=@TOTAL, where ID=@ID";
-                    cmd.Parameters.AddWithValue("@ID", textbox_id.Text);
-                    cmd.Parameters.AddWithValue("@NIK", textbox_nik.Text);
-                    cmd.Parameters.AddWithValue("@NAMA", textbox_nama.Text);
-               //TANGGAL=@TANGGAL
-                    //cmd.Parameters.AddWithValue("@TANGGAL", dateTimePicker1.Value);
-                    cmd.Parameters.AddWithValue("@JUMLAH_JIWA", textbox_jiwa.Text);
-                    cmd.Parameters.AddWithValue("@KUALITAS", textbox_jenis.Text);
-                    cmd.Parameters.AddWithValue("@TOTAL", textbox_total.Text);
-                   
-                    MessageBox.Show("Data dengan NIK " + textbox_nik.Text + " berhasil diperbaharui");
-                    cmd.ExecuteNonQuery();
-                    textbox_id.Text = "";
-                    textbox_nik.Text = "";
-                    textbox_nama.Text = "";
-                    //textbox_uang.Text = "";
-                    textbox_total.Text = "0";
-                    //textbox_kembalian.Text = "0";
-                    lihatData();
-                    koneksi.Close();
-                }
-                catch (Exception c)
-                {
-                    MessageBox.Show(c.Message, "Pesan Error");
-                }
-                finally
-                {
-                    koneksi.Close();
-                }
-            
-            
-        }
-
-        
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -172,6 +127,58 @@ namespace zakat
             textbox_jenis.Text = "";
             textbox_total.Text = "";
             lihatData();
+            koneksi.Close();
+        }
+
+        private void button_ubah_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                koneksi.Open();
+                MySqlCommand cmd;
+                cmd = koneksi.CreateCommand();
+                cmd.CommandText = "update identitas set NAMA=@NAMA, NIK=@NIK, TANGGAL=@TANGGAL, JUMLAH_JIWA=@JUMLAH_JIWA, KUALITAS=@KUALITAS, TOTAL=@TOTAL where ID=@ID";
+                cmd.Parameters.AddWithValue("@ID", textbox_id.Text);
+                cmd.Parameters.AddWithValue("@NIK", textbox_nik.Text);
+                cmd.Parameters.AddWithValue("@NAMA", textbox_nama.Text);
+                cmd.Parameters.AddWithValue("@JUMLAH_JIWA", textbox_jiwa.Text);
+                DateTime dateTimeVariable = dateTimePicker1.Value;
+                cmd.Parameters.AddWithValue("@TANGGAL", dateTimeVariable);
+                cmd.Parameters.AddWithValue("@KUALITAS", textbox_jenis.Text);
+                cmd.Parameters.AddWithValue("@TOTAL", textbox_total.Text);
+                MessageBox.Show("Data dengan NIK " + textbox_nik.Text + " berhasil diperbaharui");
+                cmd.ExecuteNonQuery();
+                textbox_id.Text = "";
+                textbox_nik.Text = "";
+                //textbox_nama.Text = "";
+                //textbox_uang.Text = "";
+                textbox_total.Text = "";
+
+                lihatData();
+
+                koneksi.Close();
+            }
+            catch (Exception c)
+            {
+                MessageBox.Show("Ups, Ada Kesalahan. \nIni Detail Errornya: \"" + c.Message + "\"", "Pesan Error");
+            }
+            finally
+            {
+                koneksi.Close();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            koneksi.Open();
+            MySqlCommand cmd;
+            cmd = koneksi.CreateCommand();
+            cmd.CommandText = "SELECT * FROM identitas WHERE ID LIKE '%" + textbox_cariid.Text + "%'";
+            cmd.Parameters.AddWithValue("@ID", textbox_cariid.Text);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0].DefaultView;
             koneksi.Close();
         }
 

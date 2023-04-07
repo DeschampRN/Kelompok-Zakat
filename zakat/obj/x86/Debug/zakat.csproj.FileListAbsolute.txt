@@ -8,3 +8,17 @@ C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x8
 C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.Form1.resources
 C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.exe
 C:\Users\desch\onedrive\documents\visual studio 2010\Projects\zakat\zakat\obj\x86\Debug\zakat.pdb
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.exe
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.pdb
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\zakat.exe.config
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\zakat.exe
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\zakat.pdb
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\mysql.data.dll
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\mysql.data.entity.dll
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\mysql.visualstudio.dll
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\bin\Debug\mysql.web.dll
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.csprojResolveAssemblyReference.cache
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.Form1.resources
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.Form2.resources
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.Properties.Resources.resources
+C:\Users\desch\OneDrive\Documents\GitHub\Kelompok-Zakat\zakat\obj\x86\Debug\zakat.csproj.GenerateResource.Cache
