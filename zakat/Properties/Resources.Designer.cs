@@ -69,5 +69,15 @@ namespace zakat.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alessa_ciraulo_r_cy77rA0J0_unsplash__2_ {
+            get {
+                object obj = ResourceManager.GetObject("alessa-ciraulo-r-cy77rA0J0-unsplash (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

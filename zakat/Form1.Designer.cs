@@ -56,8 +56,9 @@
             // 
             // button_ubah
             // 
-            this.button_ubah.BackColor = System.Drawing.Color.Chartreuse;
+            this.button_ubah.BackColor = System.Drawing.Color.Gray;
             this.button_ubah.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_ubah.ForeColor = System.Drawing.Color.Black;
             this.button_ubah.Location = new System.Drawing.Point(12, 375);
             this.button_ubah.Name = "button_ubah";
             this.button_ubah.Size = new System.Drawing.Size(127, 28);
@@ -68,7 +69,7 @@
             // 
             // button_simpan
             // 
-            this.button_simpan.BackColor = System.Drawing.Color.Chartreuse;
+            this.button_simpan.BackColor = System.Drawing.Color.Gray;
             this.button_simpan.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.button_simpan.Location = new System.Drawing.Point(12, 422);
             this.button_simpan.Name = "button_simpan";
@@ -80,7 +81,7 @@
             // 
             // button_batal
             // 
-            this.button_batal.BackColor = System.Drawing.Color.Chartreuse;
+            this.button_batal.BackColor = System.Drawing.Color.Gray;
             this.button_batal.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.button_batal.Location = new System.Drawing.Point(154, 375);
             this.button_batal.Name = "button_batal";
@@ -92,7 +93,7 @@
             // 
             // button_hapus
             // 
-            this.button_hapus.BackColor = System.Drawing.Color.Chartreuse;
+            this.button_hapus.BackColor = System.Drawing.Color.Gray;
             this.button_hapus.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.button_hapus.Location = new System.Drawing.Point(154, 422);
             this.button_hapus.Name = "button_hapus";
@@ -104,7 +105,7 @@
             // 
             // button_cek
             // 
-            this.button_cek.BackColor = System.Drawing.Color.Chartreuse;
+            this.button_cek.BackColor = System.Drawing.Color.Gray;
             this.button_cek.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.button_cek.Location = new System.Drawing.Point(309, 375);
             this.button_cek.Name = "button_cek";
@@ -117,6 +118,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(40, 80);
             this.label1.Name = "label1";
@@ -127,6 +129,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(40, 113);
             this.label2.Name = "label2";
@@ -137,6 +140,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label3.Location = new System.Drawing.Point(40, 145);
             this.label3.Name = "label3";
@@ -147,6 +151,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label4.Location = new System.Drawing.Point(40, 177);
             this.label4.Name = "label4";
@@ -157,6 +162,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label5.Location = new System.Drawing.Point(40, 213);
             this.label5.Name = "label5";
@@ -167,6 +173,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label7.Location = new System.Drawing.Point(40, 257);
             this.label7.Name = "label7";
@@ -187,6 +194,7 @@
             // 
             // textbox_id
             // 
+            this.textbox_id.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.textbox_id.Location = new System.Drawing.Point(182, 80);
             this.textbox_id.Name = "textbox_id";
             this.textbox_id.ReadOnly = true;
@@ -223,6 +231,7 @@
             // 
             // textbox_total
             // 
+            this.textbox_total.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.textbox_total.Location = new System.Drawing.Point(182, 252);
             this.textbox_total.Name = "textbox_total";
             this.textbox_total.Size = new System.Drawing.Size(200, 22);
@@ -239,6 +248,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label6.Location = new System.Drawing.Point(40, 307);
             this.label6.Name = "label6";
@@ -248,7 +258,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Chartreuse;
+            this.button1.BackColor = System.Drawing.Color.Gray;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(589, 483);
             this.button1.Name = "button1";
@@ -260,6 +270,7 @@
             // 
             // textbox_cariid
             // 
+            this.textbox_cariid.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textbox_cariid.Location = new System.Drawing.Point(436, 493);
             this.textbox_cariid.Name = "textbox_cariid";
             this.textbox_cariid.Size = new System.Drawing.Size(125, 22);
@@ -268,9 +279,9 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(1361, 510);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(126, 19);
@@ -281,7 +292,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGreen;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = global::zakat.Properties.Resources.alessa_ciraulo_r_cy77rA0J0_unsplash__1_;
             this.ClientSize = new System.Drawing.Size(1487, 538);
             this.Controls.Add(this.label8);
@@ -308,7 +319,7 @@
             this.Controls.Add(this.button_simpan);
             this.Controls.Add(this.button_ubah);
             this.Name = "Form1";
-            this.Text = "za";
+            this.Text = "Zakat";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

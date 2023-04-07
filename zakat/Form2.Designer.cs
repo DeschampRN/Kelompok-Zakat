@@ -33,11 +33,12 @@
             this.textbox_pass = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button1.BackColor = System.Drawing.Color.LightGray;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(191, 185);
             this.button1.Name = "button1";
@@ -65,6 +66,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(88, 83);
             this.label1.Name = "label1";
@@ -75,6 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(88, 130);
             this.label2.Name = "label2";
@@ -82,12 +85,25 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Password";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(65, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(327, 30);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Aplikasi Penghitung Zakat";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lime;
+            this.BackColor = System.Drawing.Color.OldLace;
+            this.BackgroundImage = global::zakat.Properties.Resources.alessa_ciraulo_r_cy77rA0J0_unsplash__2_;
             this.ClientSize = new System.Drawing.Size(504, 253);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textbox_pass);
@@ -108,5 +124,6 @@
         private System.Windows.Forms.TextBox textbox_pass;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
